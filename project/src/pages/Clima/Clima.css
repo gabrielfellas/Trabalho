@@ -1,0 +1,92 @@
+.current-tempo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #333;
+}
+
+.current-tempo-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #00047a;
+}
+
+.current-tempo-container input {
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #00047a;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.current-tempo-container button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #040ce8;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.2s;
+}
+
+.current-tempo-container button:hover {
+    background-color: #040ce886;
+}
+
+.tempo-info {
+    color: #00047a;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #eeeeee52;
+    backdrop-filter: blur(10px);
+    padding: 10px 30px;
+    box-shadow: 2px 6px 10px #00047a83;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: start;
+}
+
+.tempo-info .info {
+    align-items: flex-start;
+}
+
+.tempo-info .info .btn-5day {
+    margin-top: 20px;
+    box-shadow: 3px 5px 10px #00047a7b;
+}
+
+.tempo-info h2 {
+    margin-top: 0;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.tempo-info p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.tempo-info img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.container-5day {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-for {
+    margin-right: 30px;
+}
